@@ -1,0 +1,478 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(images/poto.png);
+}
+
+a {
+  color: salmon;
+  padding: 5px 5px;
+  gap: 5px;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.nav-home {
+  margin-left: 50px;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+}
+
+#nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px;
+  list-style: none;
+  width: 40%;
+}
+
+.link>li>a {
+  text-decoration: none;
+}
+
+#nav a:hover {
+  background-image: url(images/hov.png);
+  padding: 10px 10px;
+  border-radius: 15px;
+  transition: all .3s ease-in-out;
+}
+
+.home-one {
+  text-align: center;
+  color: bisque;
+  margin: 120px 65px;
+}
+
+.home-one>h1 {
+  font-size: 5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home-one>button {
+  border-radius: 10px;
+  color: darksalmon;
+  background: gray;
+  font-size: large;
+  margin-top: 15px;
+  padding: 10px 10px;
+}
+
+.home-one>button:hover {
+  cursor: pointer;
+  color: brown;
+  transition: all .3s ease-in-out;
+}
+
+/* Style About Me */
+.about-one {
+  margin-left: 150px;
+  margin-right: 150px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-one>img {
+  margin-top: 120px;
+  margin-left: 140px;
+  border-radius: 80%;
+  width: 180px;
+  height: 200px;
+}
+
+.about-one>h4 {
+  color: darkgrey;
+  margin-left: 175px;
+}
+
+.about-one>h5 {
+  text-decoration: line-through;
+  color: darkgray;
+  margin-left: 182px;
+}
+
+.about-vert {
+  color: aliceblue;
+  border-left: 3px solid;
+  height: 200px;
+  width: 0px;
+  margin-left: 350px;
+  margin-top: -200px;
+}
+
+.about-two>h1 {
+  margin-left: 380;
+  margin-top: -100px;
+  position: absolute;
+  color: wheat;
+  text-align: center;
+  margin-bottom: 500px;
+  text-decoration: underline;
+}
+
+.about-two>p {
+  font-size: large;
+  margin-top: -150px;
+  margin-right: 200px;
+  margin-left: 360px;
+  color: aliceblue;
+}
+
+.about-two>a {
+  margin-left: 500px;
+}
+
+.h1>a {
+  margin-top: -10px;
+  margin-left: 600px;
+}
+
+.h1>a:hover {
+  color: red;
+}
+
+.h1>h1 {
+  margin-left: 350px;
+  margin-top: 50px;
+  color: red;
+}
+
+.wa {
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: -30px;
+  margin-left: -150px;
+}
+
+.ig {
+  position: relative;
+  top: -64px;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+  margin-left: -110px;
+
+}
+
+/* style blog */
+.blog {
+  text-decoration: line-through;
+  color: wheat;
+  text-align: center;
+}
+
+.blog-satu {
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px 10px;
+  width: 300px;
+  height: 400px;
+  background-color: whitesmoke;
+  margin-top: 50px;
+  margin-left: 120px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.blog-satu>img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.blog-satu>h4 {
+  color: black;
+  padding-bottom: 5px;
+}
+
+.blog-satu>p {
+  color: black;
+}
+
+.blog-satu>a {
+  color: salmon;
+}
+
+.blog-satu>a:hover {
+  color: red;
+}
+
+.blog-dua {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px 10px;
+  width: 300px;
+  height: 400px;
+  background-color: whitesmoke;
+  margin-left: 490px;
+  margin-top: -460px;
+  border-radius: 10px;
+}
+
+.blog-dua>img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.blog-dua>h4 {
+  color: black;
+  padding-bottom: 5px;
+}
+
+.blog-dua>p {
+  color: black;
+}
+
+.blog-dua>a {
+  color: salmon;
+}
+
+.blog-dua>a:hover {
+  color: red;
+}
+
+.blog-tiga {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px 10px;
+  width: 300px;
+  height: 400px;
+  background-color: whitesmoke;
+  margin-left: 865px;
+  margin-top: -420px;
+  border-radius: 10px;
+}
+
+.blog-tiga>img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.blog-tiga>h4 {
+  color: black;
+  padding-bottom: 5px;
+}
+
+.blog-tiga>p {
+  color: black;
+}
+
+.blog-tiga>a {
+  color: salmon;
+}
+
+.blog-tiga>a:hover {
+  color: red;
+}
+
+/* style team */
+.team {
+  text-align: center;
+  color: wheat;
+  text-decoration: line-through;
+}
+
+.column {
+  background-color: aliceblue;
+  float: left;
+  width: 220px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  margin-left: 150px;
+  padding: 10px 8px;
+}
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.container {
+  padding: 0 16px;
+}
+
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #555;
+}
+
+/* style contact */
+.contact-one {
+  border-radius: 30px;
+  padding: 40px 40px;
+  margin: 10px auto;
+  text-align: center;
+  width: 450px
+}
+
+.contact-one>label {
+  padding-right: 350px;
+  color: aliceblue;
+}
+
+.contact-one>h1 {
+  color: rgb(174, 255, 0);
+  padding-bottom: 20px;
+}
+
+.contact-one>input {
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.contact-one>textarea {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contact-one>button {
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.contact-one>button:hover {
+  background-color: rgb(174, 255, 0);
+  cursor: pointer;
+}
+
+/* style portofolio */
+#onlynav {
+  position: fixed;
+  margin: 0;
+  padding: 0px 0px;
+  width: 100%;
+  top: 0px;
+
+}
+
+
+#section {
+  display: flex;
+  justify-content: space-around;
+  color: wheat;
+  margin: 130px 180px;
+  padding: 5px 60px;
+
+}
+
+.bora>img {
+  border-radius: 30px;
+}
+
+.section>td>img {
+  border: 1px solid;
+  border-radius: 10px 10px;
+}
+
+.p {
+  display: flex;
+}
+
+.firtsname {
+  color: red;
+}
+
+.lastname {
+  color: white;
+}
+
+.parent-btn {
+  display: flex;
+}
+
+.satu>button {
+  background-color: wheat;
+  padding: 5px 15px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.satu>button:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.dua>button {
+  background-color: wheat;
+  padding: 5px 15px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.dua>button:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+#form {
+  margin-top: -110px;
+  margin-bottom: 5px;
+  margin-left: 250px;
+  margin-right: 180px;
+}
+
+
+#form>form>label {
+  color: wheat;
+}
+
+#form>form>input {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.sbm>button {
+  border-radius: 10px;
+  width: 685px;
+  background-color: lightgreen;
+  width: 100%;
+}
+
+.sbm>button:hover {
+  color: green;
+  background-color: red;
+  cursor: pointer;
+}
